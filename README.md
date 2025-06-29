@@ -106,10 +106,7 @@ A: Simplicity & compatibility with hosted Jupyter (Binder, Kaggle) that only exp
 ---
 
 ## ❤️  Contributing
-PRs & issues welcome!  See `Technical.md` then run the test suite:
-```bash
-pytest -q
-```
+PRs & issues welcome!  See `Technical.md` and `CONTRIBUTING.md`
 
 ---
 
