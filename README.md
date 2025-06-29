@@ -110,5 +110,16 @@ PRs & issues welcome!  See `Technical.md` and `CONTRIBUTING.md`
 
 ---
 
+## ☕  Support
+
+To support this project (and the studies of **@yaelliethy**) please consider buying a coffee:
+
+```html
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="yaelliethy" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+```
+
+*(Note: GitHub README sanitises `<script>` tags, so the button might not render on github.com. It will work on other Markdown renderers or a docs site.)*
+
+---
 ## 📜  License
 MIT © 2024 – JuypterSSH authors 
