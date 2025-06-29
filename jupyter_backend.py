@@ -390,13 +390,8 @@ class JupyterBackend:
             flags = fcntl.fcntl(master_fd, fcntl.F_GETFL)
             fcntl.fcntl(master_fd, fcntl.F_SETFL, flags | os.O_NONBLOCK)
             
-            # Read initial shell setup output and discard it
-            time.sleep(0.2)
-            try:
-                while select.select([master_fd], [], [], 0.1)[0]:
-                    os.read(master_fd, 1024)
-            except:
-                pass
+            # Optional: wait a short moment to allow shell to print its first prompt
+            time.sleep(0.1)
 
         master_fd = globals()['bash_master_fd']
         proc = globals()['bash_proc']
