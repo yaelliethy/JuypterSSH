@@ -112,7 +112,7 @@ PRs & issues welcome!  See `Technical.md` and `CONTRIBUTING.md`
 
 ## ☕  Support
 
-To support this project (and the studies of **@yaelliethy**) please consider buying a coffee:
+To support this project (and my studies) please consider buying a coffee:
 
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%23FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/yaelliethy)
