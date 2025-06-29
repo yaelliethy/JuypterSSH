@@ -8,12 +8,10 @@ Thanks for your interest in improving JuypterSSH!  We welcome PRs, bug reports a
 1. Fork & clone this repo.  
 2. `python -m venv .venv && source .venv/bin/activate`  
 3. `pip install -r requirements.txt -r dev-requirements.txt` (dev-requirements listed below).
-4. Run unit tests: `pytest -q`.
-5. Start the server against a local Jupyter (`jupyter lab --no-browser`) and iterate.
+4. Start the server against a local Jupyter (`jupyter lab --no-browser`) and iterate.
 
 ### dev-requirements.txt
 ```
-pytest
 black
 ruff
 pre-commit
@@ -31,7 +29,7 @@ Install hooks: `pre-commit install`.
 
 ## 🔀  Pull-request process
 1. Create a feature branch (`feat/my-thing`).
-2. Ensure `pytest` passes and `black`, `ruff`, `mypy` are clean.
+2. Ensure `black`, `ruff`, `mypy` are clean.
 3. Open PR against `main` with a concise description.
 4. One approval + passing CI → merge via squash-and-merge.
 
